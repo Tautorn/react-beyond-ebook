@@ -1,4 +1,6 @@
-# react-beyond-ebook
+# React Beyond E-Book
+
+@author: Bruno Ferreira Fernandes Carneiro
 
 Este repositório contém os exemplos que foram apresentados no meu e-book **React Beyond**.
 
