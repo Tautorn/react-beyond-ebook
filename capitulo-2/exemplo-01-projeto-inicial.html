@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <!-- ... HTML qualquer ... -->
+
+    <!-- Adicionar o React. -->
+    <!-- Nota: ao fazer o deploy, substitua "development.js" por "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    
+    <script  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Adicione nosso componente React. -->
+    <script>
+      const domContainer = document.querySelector("#like_button_container");
+      const root = ReactDOM.createRoot(domContainer);
+      root.render(e(LikeButton));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+return components[userLevel] ?? <p>Não há descontos disponíveis. Verifique seu nível de usuário.</p>;

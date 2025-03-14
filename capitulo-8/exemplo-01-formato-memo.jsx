@@ -1,0 +1,1 @@
+const MemoizedComponent = memo(SomeComponent, arePropsEqual?)
